@@ -1,9 +1,12 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation';
 import React from 'react'
 
 const Navbar = () => {
   const user ={};
+  const router = useRouter();
   return (
     <header className='navbar'>
       <nav>
@@ -14,8 +17,8 @@ const Navbar = () => {
 
         {
           user && (
-            <figure>
-              <button>
+            <figure >
+              <button onClick={()=>router.push('/profile/12233')}>
                 <Image src="/assets/images/dummy.jpg" className='rounded-full aspect-square' alt='dummy' height={36} width={36}/>
                 
               </button>
