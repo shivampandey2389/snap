@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav>
         <Link href="/">
             <Image src="/assets/icons/logo.svg" alt='logo'  height={32} width={32}/>
-            <h1>SnapCast</h1>
+            <h1>SayScreen</h1>
         </Link>
 
         {

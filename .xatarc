@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Shivam-Pandey-s-workspace-e1hsgt.us-east-1.xata.sh/db/sayScreen",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
