@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import FileInput from "@/components/FileInput"
 import FormField from "@/components/FormField"
 import { MAX_THUMBNAIL_SIZE, MAX_VIDEO_SIZE } from "@/constants"
