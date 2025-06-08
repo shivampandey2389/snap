@@ -4,7 +4,7 @@ import { dummyCards } from '@/constants';
 import React from 'react'
 
 const page = async({params}:ParamsWithSearch) => {
-  const {id }= await params;
+  const {id}= await params;
   return (
     <div className='wrapper page'>
       <Header subHeader='shivampandey2389@gmail.com' title='Shivam' userImg='/assets/images/dummy.jpg'/>

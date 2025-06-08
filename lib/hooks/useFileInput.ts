@@ -7,7 +7,7 @@ export const useFileInput = (maxSize:number) =>{
   const inputRef = useRef<HTMLInputElement>(null);
 
 
-  const handleFileChange = (e:ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e:ChangeEvent<HTMLInputElement>) =>{
     if(e.target.files?.[0]){
       const selectedFile = e.target.files[0];
       if(selectedFile.size > maxSize)return;

@@ -10,6 +10,7 @@ const FormField = ({id,label,type="text",value,onChange,placeholder,as ='input',
       name={id}
       value={value}
       onChange={onChange}
+      placeholder={placeholder}
       />
    ):as ==='select'?(
       <select
@@ -23,7 +24,7 @@ const FormField = ({id,label,type="text",value,onChange,placeholder,as ='input',
         ))}
       </select>
    ):(
-       <input
+      <input
       id={id}
       name={id}
       value={value}
