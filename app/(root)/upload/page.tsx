@@ -2,7 +2,7 @@
 import FileInput from "@/components/FileInput"
 import FormField from "@/components/FormField"
 import { MAX_THUMBNAIL_SIZE, MAX_VIDEO_SIZE } from "@/constants"
-import { getThumbnailUploadUrl, getVideoUploadUrl, saveVideoDetails } from "@/lib/action/video"
+import { getThumbnailUploadUrl, getVideoUploadUrl, saveVideoDetails } from "@/lib/actions/video"
 import { useFileInput } from "@/lib/hooks/useFileInput"
 import { useRouter } from "next/navigation"
 import { ChangeEvent, FormEvent, useEffect, useState } from "react"
